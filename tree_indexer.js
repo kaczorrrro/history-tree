@@ -17,7 +17,7 @@ chrome.tabs.onAttached.addListener(dummy_listener);
 chrome.tabs.onRemoved.addListener(dummy_listener);
 
 chrome.windows.onCreated.addListener(dummy_listener);
-chrome.windows.on
+
 
 chrome.tabs.onActivated.addListener((activeInfo)=>{
 	log("onActivated!");

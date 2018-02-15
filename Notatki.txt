@@ -13,4 +13,17 @@ TODO:
 		Tab moved
 		Tab detached
 		Window killed
-		... (?)
+	Save events to storage
+	Decide what data to save
+	Create basic view
+		Draw!
+
+
+
+EventData to save:
+	ID
+	Type
+	Time
+	Origin (prev ID ?)
+	Name
+	URL
