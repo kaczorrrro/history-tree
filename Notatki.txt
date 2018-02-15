@@ -18,6 +18,9 @@ TODO:
 	Create basic view
 		Draw!
 
+Permissions:
+	unlimitedStorage - for over 5MB of data
+
 
 
 EventData to save:

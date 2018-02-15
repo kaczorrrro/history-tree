@@ -9,7 +9,7 @@
 		"default_title":"Open history tree"
 	},
 	"background":{
-		"scripts":["tree_indexer.js"],
+		"scripts":["eventData.js", "tree_indexer.js"],
 		"persistent":true
 	},
 	"commands":{

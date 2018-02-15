@@ -1,11 +1,25 @@
+let currentEventId = 0;//TODO read this from storage
+
 class EventData{
-  constructor(tabId, eventId, type, time, origin = null, name, url){
-    this.tabId = tabId;
-    this.eventId = eventId;
+
+  constructor(type, origin, name, url){
+    this.eventId = EventData.nextEventId();
     this.type = type;
-    this.time = time;
+    this.time = null;//TODO
     this.origin = origin;
     this.name = name;
     this.url = url;
   }
+
+  static nextEventId(){
+      return currentEventId++;
+  }
+
 }
+
+let EventType = Object.freeze({"NEW_TAB":1, "URL_CHANGE":2});
+
+
+
+
+
