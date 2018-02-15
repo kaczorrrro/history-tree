@@ -1,0 +1,29 @@
+{
+	"name":"History tree",
+	"description":"History tree",
+	"version":"1.0",
+	"manifest_version":2,
+	"browser_action":{
+		"default_popup":"tree.html",
+		"default_icon":"tree_icon.png",
+		"default_title":"Open history tree"
+	},
+	"background":{
+		"scripts":["tree_indexer.js"],
+		"persistent":true
+	},
+	"commands":{
+		"_execute_browser_action":{
+			"suggested_key":{
+				"default":"Ctrl+Shift+H",
+				"mac":"MacCtrl+Shift+H"
+			},
+			"description":"Opens tree.html"
+		}
+	},
+	"permissions":[
+		"activeTab",
+		"tabs",
+		"storage"
+	]
+}

@@ -1,0 +1,16 @@
+TODO:
+	Resize icon (to what size?)
+	List all events to capture
+		URL change
+			OnUpdateListener
+				Events flow:
+					1 status: loading
+					2 favicon url
+					3 title change
+					4 complete
+		Active tab switch
+		Tab killed
+		Tab moved
+		Tab detached
+		Window killed
+		... (?)
